@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--- set 2 button at one line for this we have to use LinearLayout-->
+
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+
+    <Button
+        android:id="@+id/buttn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click"
+        android:onClick="showMeassage"
+        android:layout_marginLeft="1dp"
+        android:drawableRight="@drawable/login"
+
+        />
+
+    <Button
+
+        android:id="@+id/buttn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't Click"
+        android:onClick="showMeassage"
+        />
+
+    <TextView
+
+        android:padding="30dp"
+        android:id="@+id/lavel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
