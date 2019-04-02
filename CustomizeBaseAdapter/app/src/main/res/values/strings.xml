@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CustomizeBaseAdapter</string>
+
+    <string-array name="countryName">
+
+        <item>Hello</item>
+        <item>India</item>
+        <item>Pakistan</item>
+
+    </string-array>
+</resources>

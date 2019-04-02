@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settingid"
+        android:title="Setting"
+        app:showAsAction="never"
+
+        >
+
+    </item>
+
+     <item
+        android:id="@+id/privicyid"
+        android:title="privacy"
+        app:showAsAction="never"
+
+        >
+
+    </item>
+
+     <item
+        android:id="@+id/aboutid"
+        android:title="About Us"
+        app:showAsAction="never"
+
+        >
+
+    </item>
+
+  <item
+        android:id="@+id/shareid"
+        android:title="setting"
+        app:showAsAction="always"
+      android:icon="@drawable/ic_settings_black_24dp"
+
+
+        >
+
+    </item>
+
+
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country Profile"
+        android:textSize="5mm"
+        android:textStyle="italic"
+        android:layout_marginBottom="40dp"
+
+        />
+
+   <Button
+       android:id="@+id/bngbtn"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Bangladesh"
+       android:drawableLeft="@drawable/bangladeshicon"
+
+       />
+    <Button
+        android:id="@+id/indbtn"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+        android:text="India"
+        android:drawableLeft="@drawable/indiaicon"
+
+       />
+    <Button
+        android:id="@+id/pakbtn"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+        android:text="Pakistan"
+
+        android:drawableLeft="@drawable/pakistanicon"
+
+       />
+
+</LinearLayout>
