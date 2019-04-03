@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ExpandableListView</string>
+    <string-array name="hederlistName">
+        <item>Afghanistan</item>
+        <item>Armenia</item>
+        <item>Azerbaijan</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Bhutan</item>
+        <item>China</item>
+        <item>India</item>
+        <item>Japan</item>
+        <item>Nepal</item>
+        <item>Pakistan</item>
+        <item>Sri Lanka</item>
+    </string-array>
+
+    <string-array name="childlistName">
+        <item>it is Afghanistan</item>
+        <item>it is Armenia</item>
+        <item>it is Azerbaijan</item>
+        <item>it is Bahrain</item>
+        <item>My Country is Bangladesh</item>
+        <item>it is Bhutan</item>
+        <item>it is China</item>
+        <item>it is India</item>
+        <item>it is Japan</item>
+        <item>it is Nepal</item>
+        <item>it is Pakistan</item>
+        <item>it is Sri Lanka</item>
+    </string-array>
+
+</resources>

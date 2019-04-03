@@ -7,14 +7,14 @@
     tools:context=".MainActivity">
 
 
+    <ExpandableListView
 
-    <AutoCompleteTextView
-        android:id="@+id/autocompleteId"
-        android:gravity="center"
+        android:id="@+id/expandviewId"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter conuntry name"
-        />
+        android:layout_height="match_parent"
 
+        >
+
+    </ExpandableListView>
 
 </LinearLayout>
